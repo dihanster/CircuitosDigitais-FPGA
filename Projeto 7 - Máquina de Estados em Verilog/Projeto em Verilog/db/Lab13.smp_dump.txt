@@ -1,0 +1,13 @@
+
+State Machine - |MaquinaMealy|estado
+Name estado.Blank estado.I estado.H estado.G estado.F estado.E estado.D estado.C estado.B estado.A 
+estado.A 0 0 0 0 0 0 0 0 0 0 
+estado.B 0 0 0 0 0 0 0 0 1 1 
+estado.C 0 0 0 0 0 0 0 1 0 1 
+estado.D 0 0 0 0 0 0 1 0 0 1 
+estado.E 0 0 0 0 0 1 0 0 0 1 
+estado.F 0 0 0 0 1 0 0 0 0 1 
+estado.G 0 0 0 1 0 0 0 0 0 1 
+estado.H 0 0 1 0 0 0 0 0 0 1 
+estado.I 0 1 0 0 0 0 0 0 0 1 
+estado.Blank 1 0 0 0 0 0 0 0 0 1 
