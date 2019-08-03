@@ -1,0 +1,163 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home-local/aluno/Lab13/simulation/qsim
+vDecodificador
+Z0 !s110 1544648456
+!i10b 1
+!s100 E7jE_3?j^3Le>n52lTS821
+IGHLXA[07giDETGaeETE?o3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/willi/Desktop/Lab13/simulation/qsim
+Z3 w1544648455
+Z4 8Lab13.vo
+Z5 FLab13.vo
+Z6 L0 31
+Z7 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z8 !s108 1544648456.000000
+Z9 !s107 Lab13.vo|
+Z10 !s90 -work|work|Lab13.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+n@decodificador
+vDecodificador_vlg_vec_tst
+R0
+!i10b 1
+!s100 4Z^o`DK[lLAiR>e7h4<291
+IQma18HUmV`:M07UBWmM1l2
+R1
+R2
+w1544648453
+8Waveform20.vwf.vt
+FWaveform20.vwf.vt
+Z13 L0 29
+R7
+r1
+!s85 0
+31
+R8
+!s107 Waveform20.vwf.vt|
+!s90 -work|work|Waveform20.vwf.vt|
+!i113 1
+R11
+R12
+n@decodificador_vlg_vec_tst
+vhard_block
+R0
+!i10b 1
+!s100 6ME[74?ZFO3QfEji45g_O3
+I<l]7Clel1Ylaik@QDX3N_0
+R1
+R2
+R3
+R4
+R5
+L0 353
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vMaquinaMealy
+!s110 1544647652
+!i10b 1
+!s100 c^l@6?RhGRY2Zil=TVD:K2
+IfV?lQY;=ROcniocYF:Z5F3
+R1
+R2
+w1544647648
+R4
+R5
+R6
+R7
+r1
+!s85 0
+31
+!s108 1544647652.000000
+R9
+R10
+!i113 1
+R11
+R12
+n@maquina@mealy
+vMaquinaMealy_vlg_vec_tst
+!s110 1544647653
+!i10b 1
+!s100 lfVQoST7AGe:<jOj^oQW_1
+IOh>>e2Bndi92^^LUG>ESR1
+R1
+R2
+w1544647644
+8Waveform19.vwf.vt
+FWaveform19.vwf.vt
+R13
+R7
+r1
+!s85 0
+31
+!s108 1544647653.000000
+!s107 Waveform19.vwf.vt|
+!s90 -work|work|Waveform19.vwf.vt|
+!i113 1
+R11
+R12
+n@maquina@mealy_vlg_vec_tst
+vPrincipal
+Z14 !s110 1544553991
+!i10b 1
+!s100 EY_2jc]SDVHmlWdR7RgNK0
+I5[U:Ra756eQBj]:bf:SF>2
+R1
+R2
+w1544553984
+R4
+R5
+R6
+R7
+r1
+!s85 0
+31
+!s108 1544553990.000000
+R9
+R10
+!i113 1
+R11
+R12
+n@principal
+vPrincipal_vlg_vec_tst
+R14
+!i10b 1
+!s100 DV4`4d`NIVb:7ePA22Dfk0
+IMEgjbJTmBT>IkZ;^n_;;e3
+R1
+R2
+w1544553982
+8Waveform14.vwf.vt
+FWaveform14.vwf.vt
+R13
+R7
+r1
+!s85 0
+31
+!s108 1544553991.000000
+!s107 Waveform14.vwf.vt|
+!s90 -work|work|Waveform14.vwf.vt|
+!i113 1
+R11
+R12
+n@principal_vlg_vec_tst
