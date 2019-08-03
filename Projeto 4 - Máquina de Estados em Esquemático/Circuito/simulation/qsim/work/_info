@@ -1,0 +1,251 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/willi/Downloads/Unifesp/2018.2/Laboratório de Sistemas Computacionais Circuitos Digitais/Laboratórios/Lab 07/simulation/qsim
+vContador
+Z0 !s110 1538998855
+!i10b 1
+!s100 <l@_j@l^8f9D0EEF@JQdd3
+IFocJazRddoZSf3m9Gh68k0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/willi/Desktop/Lab CD/Lab Backup/Lab 07/simulation/qsim
+w1538998854
+Z3 8MaquinaDeEstados.vo
+Z4 FMaquinaDeEstados.vo
+Z5 L0 31
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1538998855.000000
+Z8 !s107 MaquinaDeEstados.vo|
+Z9 !s90 -work|work|MaquinaDeEstados.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@contador
+vContador_vlg_vec_tst
+R0
+!i10b 1
+!s100 A0MPfFnz0Ygke0mzZ@:i^2
+IUA=5oMfdSb6ccJklf527:0
+R1
+R2
+w1538998853
+8Waveform8.vwf.vt
+FWaveform8.vwf.vt
+Z12 L0 29
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform8.vwf.vt|
+!s90 -work|work|Waveform8.vwf.vt|
+!i113 1
+R10
+R11
+n@contador_vlg_vec_tst
+vContadorTeste
+Z13 !s110 1538999472
+!i10b 1
+!s100 8Ima4`@Lb4_?5RKb3S7JA0
+Ibco^hM3;003c;Co<_FJ222
+R1
+R2
+w1538999471
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z14 !s108 1538999472.000000
+R8
+R9
+!i113 1
+R10
+R11
+n@contador@teste
+vContadorTeste_vlg_vec_tst
+R13
+!i10b 1
+!s100 @@;^b=QcMEVKe^IVcK^2U1
+Ib3XQi5[G?hT2h_A00b[873
+R1
+R2
+w1538999469
+8Waveform10.vwf.vt
+FWaveform10.vwf.vt
+R12
+R6
+r1
+!s85 0
+31
+R14
+!s107 Waveform10.vwf.vt|
+!s90 -work|work|Waveform10.vwf.vt|
+!i113 1
+R10
+R11
+n@contador@teste_vlg_vec_tst
+vhard_block
+Z15 !s110 1540733891
+!i10b 1
+!s100 lnNAc7mh4VYkfQTiYnGKa3
+I0;P0II:lXM96YEN6Gh4A>0
+R1
+Z16 dC:/Users/willi/Downloads/Labs Willian FINAL/Lab 07/simulation/qsim
+Z17 w1540733890
+R3
+R4
+L0 927
+R6
+r1
+!s85 0
+31
+Z18 !s108 1540733891.000000
+R8
+R9
+!i113 1
+R10
+R11
+vMaquinaDeEstados2
+Z19 !s110 1538742853
+!i10b 1
+!s100 8L?RP0WS9XNVg`Ld8]hO23
+I@jehm0Bn;QQTZb8bVTPOH0
+R1
+Z20 dC:/Users/willi/Downloads/Lab 07/simulation/qsim
+w1538742852
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+!s108 1538742852.000000
+R8
+R9
+!i113 1
+R10
+R11
+n@maquina@de@estados2
+vMaquinaDeEstados2_vlg_vec_tst
+R19
+!i10b 1
+!s100 19DI1cSYfb4FZ42T`DGnE1
+IW7;cYed]:GB56j[FNZo3@3
+R1
+R20
+w1538742851
+Z21 8Waveform2.vwf.vt
+Z22 FWaveform2.vwf.vt
+R12
+R6
+r1
+!s85 0
+31
+!s108 1538742853.000000
+!s107 Waveform2.vwf.vt|
+Z23 !s90 -work|work|Waveform2.vwf.vt|
+!i113 1
+R10
+R11
+n@maquina@de@estados2_vlg_vec_tst
+vMaquinaDeEstados3
+R15
+!i10b 1
+!s100 ]AOSQQb;`RYQAOP1YBf220
+In>K;n1::;dW;mQiNC6[mi1
+R1
+R16
+R17
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+R18
+R8
+R9
+!i113 1
+R10
+R11
+n@maquina@de@estados3
+vMaquinaDeEstados3_vlg_vec_tst
+R15
+!i10b 1
+!s100 oizWmi;7ffSIJJol806En0
+Ikz;RO3bX9O^6McKRR]:A]1
+R1
+R16
+w1540733888
+R21
+R22
+R12
+R6
+r1
+!s85 0
+31
+R18
+!s107 Waveform2.vwf.vt|
+R23
+!i113 1
+R10
+R11
+n@maquina@de@estados3_vlg_vec_tst
+vMaquinaEstados
+Z24 !s110 1540476734
+!i10b 1
+!s100 B6lhjg:LSjH=i0EQdhH9O2
+I4`4goWneT3P348UPdMFdN3
+R1
+R16
+w1540476733
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z25 !s108 1540476734.000000
+R8
+R9
+!i113 1
+R10
+R11
+n@maquina@estados
+vMaquinaEstados_vlg_vec_tst
+R24
+!i10b 1
+!s100 Sg7Z8e6_:d<gIh4b0[;:K3
+I4>__SFc]jH9f1QncjjmTe1
+R1
+R16
+w1540476731
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+R12
+R6
+r1
+!s85 0
+31
+R25
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+n@maquina@estados_vlg_vec_tst

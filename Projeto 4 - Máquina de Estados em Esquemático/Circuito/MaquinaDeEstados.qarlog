@@ -1,0 +1,26 @@
+Quartus Prime Archive log --	C:/Users/willi/Downloads/Labs Willian FINAL/Lab 07/MaquinaDeEstados.qarlog
+
+Archive:	C:/Users/willi/Downloads/Labs Willian FINAL/Lab 07/MaquinaDeEstados.qar
+Date:		Sun Oct 28 11:10:45 2018
+Quartus Prime		18.0.0 Build 614 04/24/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/willi/Downloads/Labs Willian FINAL/Lab 07/CircuitoPrincipal.bdf
+C:/Users/willi/Downloads/Labs Willian FINAL/Lab 07/Contador.bdf
+C:/Users/willi/Downloads/Labs Willian FINAL/Lab 07/Display.bdf
+C:/Users/willi/Downloads/Labs Willian FINAL/Lab 07/FlipFlopD.bdf
+C:/Users/willi/Downloads/Labs Willian FINAL/Lab 07/MaquinaDeEstados.qpf
+C:/Users/willi/Downloads/Labs Willian FINAL/Lab 07/MaquinaDeEstados.qsf
+C:/Users/willi/Downloads/Labs Willian FINAL/Lab 07/MaquinaDeEstados_assignment_defaults.qdf
+C:/Users/willi/Downloads/Labs Willian FINAL/Lab 07/MaquinaEstados.bdf
+C:/Users/willi/Downloads/Labs Willian FINAL/Lab 07/ProximoEstado.bdf
+C:/Users/willi/Downloads/Labs Willian FINAL/Lab 07/Registradores.bdf
+C:/Users/willi/Downloads/Labs Willian FINAL/Lab 07/Saida.bdf
+C:/Users/willi/Downloads/Labs Willian FINAL/Lab 07/Temporizador.bdf
+C:/Users/willi/Downloads/Labs Willian FINAL/Lab 07/Waveform.vwf
+C:/Users/willi/Downloads/Labs Willian FINAL/Lab 07/Waveform1.vwf
+C:/Users/willi/Downloads/Labs Willian FINAL/Lab 07/Waveform2.vwf
+	======= Total: 15 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
