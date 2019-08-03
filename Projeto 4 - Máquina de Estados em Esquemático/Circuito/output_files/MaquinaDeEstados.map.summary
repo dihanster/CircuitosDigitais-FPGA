@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun Oct 28 10:53:52 2018
+Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+Revision Name : MaquinaDeEstados
+Top-level Entity Name : CircuitoPrincipal
+Family : Cyclone IV E
+Total logic elements : 79
+    Total combinational functions : 79
+    Dedicated logic registers : 29
+Total registers : 29
+Total pins : 11
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
