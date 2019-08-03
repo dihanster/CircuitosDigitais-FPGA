@@ -1,0 +1,273 @@
+|CircuitoPrincipal
+a <= Display:inst2.a
+UP => MaquinaEstados:inst.up
+DOWN => MaquinaEstados:inst.down
+CLK => Temporizador:inst4.clock
+RESET => inst1.IN0
+b <= Display:inst2.b
+c <= Display:inst2.c
+d <= Display:inst2.d
+e <= Display:inst2.e
+f <= Display:inst2.f
+g <= Display:inst2.g
+
+
+|CircuitoPrincipal|Display:inst2
+b <= inst42.DB_MAX_OUTPUT_PORT_TYPE
+W => wneg.IN0
+W => wxnyn.IN0
+W => wxnegyneg.IN0
+X => xneg.IN0
+X => wnx.IN1
+X => wnxynz.IN1
+X => wnxyn.IN1
+X => wnxzn.IN1
+X => wnegxz.IN1
+Y => yneg.IN0
+Y => wnyz.IN1
+Y => wnyzn.IN1
+Y => wnxny.IN2
+Y => wnegadoy.IN1
+Z => zneg.IN0
+Z => wnyz.IN2
+Z => wnz.IN1
+Z => wnxynz.IN3
+Z => wnegxz.IN2
+c <= inst43.DB_MAX_OUTPUT_PORT_TYPE
+d <= inst44.DB_MAX_OUTPUT_PORT_TYPE
+e <= inst45.DB_MAX_OUTPUT_PORT_TYPE
+f <= inst46.DB_MAX_OUTPUT_PORT_TYPE
+g <= inst47.DB_MAX_OUTPUT_PORT_TYPE
+a <= inst41.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CircuitoPrincipal|MaquinaEstados:inst
+S3 <= Saida:inst.Y3
+up => ProximoEstado:inst4.UP
+down => ProximoEstado:inst4.DOWN
+clk => Registradores:inst2.Clk
+reset => Registradores:inst2.Reset
+S2 <= Saida:inst.Y2
+S1 <= Saida:inst.Y1
+S0 <= Saida:inst.Y0
+
+
+|CircuitoPrincipal|MaquinaEstados:inst|Saida:inst
+Y3 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+Q2 => inst3.IN0
+Q2 => inst6.IN0
+Q2 => inst7.IN0
+Q2 => inst14.IN0
+Q2 => inst17.IN0
+Q1 => inst4.IN0
+Q1 => inst13.IN0
+Q1 => inst17.IN1
+Q0 => inst.IN2
+Q0 => inst8.IN1
+Q0 => inst10.IN0
+Q0 => inst14.IN1
+Q0 => inst13.IN1
+Q0 => inst19.IN2
+Q3 => inst1.IN1
+Q3 => inst8.IN0
+Q3 => inst12.IN0
+Y2 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+Y1 <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+Y0 <= inst16.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CircuitoPrincipal|MaquinaEstados:inst|Registradores:inst2
+Q0 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+Reset => inst4.IN0
+Reset => inst5.IN0
+Reset => inst6.IN0
+Reset => inst7.IN1
+Clk => FlipFlopD:inst.CLK
+Clk => FlipFlopD:inst2.CLK
+Clk => FlipFlopD:inst3.CLK
+Clk => FlipFlopD:inst8.CLK
+D0 => FlipFlopD:inst.D
+Q1 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+D1 => FlipFlopD:inst2.D
+Q2 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+D2 => FlipFlopD:inst3.D
+Q3 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+D3 => FlipFlopD:inst8.D
+
+
+|CircuitoPrincipal|MaquinaEstados:inst|Registradores:inst2|FlipFlopD:inst
+Q <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst1.IN0
+CLK => inst3.IN1
+D => inst2.IN0
+Qn <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CircuitoPrincipal|MaquinaEstados:inst|Registradores:inst2|FlipFlopD:inst2
+Q <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst1.IN0
+CLK => inst3.IN1
+D => inst2.IN0
+Qn <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CircuitoPrincipal|MaquinaEstados:inst|Registradores:inst2|FlipFlopD:inst3
+Q <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst1.IN0
+CLK => inst3.IN1
+D => inst2.IN0
+Qn <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CircuitoPrincipal|MaquinaEstados:inst|Registradores:inst2|FlipFlopD:inst8
+Q <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst1.IN0
+CLK => inst3.IN1
+D => inst2.IN0
+Qn <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CircuitoPrincipal|MaquinaEstados:inst|ProximoEstado:inst4
+D3 <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+DOWN => inst.IN0
+DOWN => inst6.IN0
+DOWN => inst17.IN3
+DOWN => inst24.IN1
+DOWN => inst27.IN2
+DOWN => inst28.IN2
+DOWN => inst29.IN2
+DOWN => inst4.IN3
+DOWN => inst22.IN3
+UP => inst.IN1
+UP => inst3.IN3
+UP => inst5.IN0
+UP => inst24.IN0
+UP => inst25.IN2
+UP => inst18.IN4
+UP => inst21.IN4
+Q2 => inst3.IN0
+Q2 => inst8.IN0
+Q2 => inst13.IN0
+Q2 => inst15.IN0
+Q2 => inst14.IN0
+Q2 => inst16.IN0
+Q2 => inst28.IN0
+Q2 => inst22.IN2
+Q1 => inst3.IN1
+Q1 => inst9.IN0
+Q1 => inst16.IN1
+Q1 => inst20.IN0
+Q1 => inst19.IN0
+Q1 => inst27.IN0
+Q1 => inst18.IN1
+Q0 => inst3.IN2
+Q0 => inst10.IN0
+Q0 => inst15.IN1
+Q0 => inst20.IN1
+Q0 => inst26.IN0
+Q0 => inst18.IN0
+Q0 => inst21.IN0
+Q3 => inst7.IN0
+Q3 => inst2.IN0
+Q3 => inst17.IN0
+Q3 => inst29.IN0
+D2 <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+D1 <= inst23.DB_MAX_OUTPUT_PORT_TYPE
+D0 <= inst30.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CircuitoPrincipal|Temporizador:inst4
+1s <= inst58.DB_MAX_OUTPUT_PORT_TYPE
+clock => Contador:inst.clock
+
+
+|CircuitoPrincipal|Temporizador:inst4|Contador:inst15
+c0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+clock => inst12.IN0
+clock => inst.CLK
+reset => inst10.IN1
+c1 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+c2 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CircuitoPrincipal|Temporizador:inst4|Contador:inst13
+c0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+clock => inst12.IN0
+clock => inst.CLK
+reset => inst10.IN1
+c1 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+c2 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CircuitoPrincipal|Temporizador:inst4|Contador:inst11
+c0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+clock => inst12.IN0
+clock => inst.CLK
+reset => inst10.IN1
+c1 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+c2 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CircuitoPrincipal|Temporizador:inst4|Contador:inst9
+c0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+clock => inst12.IN0
+clock => inst.CLK
+reset => inst10.IN1
+c1 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+c2 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CircuitoPrincipal|Temporizador:inst4|Contador:inst8
+c0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+clock => inst12.IN0
+clock => inst.CLK
+reset => inst10.IN1
+c1 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+c2 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CircuitoPrincipal|Temporizador:inst4|Contador:inst7
+c0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+clock => inst12.IN0
+clock => inst.CLK
+reset => inst10.IN1
+c1 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+c2 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CircuitoPrincipal|Temporizador:inst4|Contador:inst6
+c0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+clock => inst12.IN0
+clock => inst.CLK
+reset => inst10.IN1
+c1 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+c2 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CircuitoPrincipal|Temporizador:inst4|Contador:inst5
+c0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+clock => inst12.IN0
+clock => inst.CLK
+reset => inst10.IN1
+c1 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+c2 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CircuitoPrincipal|Temporizador:inst4|Contador:inst4
+c0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+clock => inst12.IN0
+clock => inst.CLK
+reset => inst10.IN1
+c1 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+c2 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CircuitoPrincipal|Temporizador:inst4|Contador:inst
+c0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+clock => inst12.IN0
+clock => inst.CLK
+reset => inst10.IN1
+c1 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+c2 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
