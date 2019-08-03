@@ -1,0 +1,41 @@
+Quartus Prime Archive log --	C:/Users/willi/Desktop/Lab13/Projeto 07 - Maquina de Estados.qarlog
+
+Archive:	C:/Users/willi/Desktop/Lab13/Projeto 07 - Maquina de Estados.qar
+Date:		Thu Dec 13 08:15:52 2018
+Quartus Prime		18.0.0 Build 614 04/24/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/willi/Desktop/Lab13/Decodificador.v
+C:/Users/willi/Desktop/Lab13/DivisorFrequencias.v
+C:/Users/willi/Desktop/Lab13/Lab13.qpf
+C:/Users/willi/Desktop/Lab13/Lab13.qsf
+C:/Users/willi/Desktop/Lab13/Lab13.v
+C:/Users/willi/Desktop/Lab13/Lab13_assignment_defaults.qdf
+C:/Users/willi/Desktop/Lab13/MaquinaDeMealy.v
+C:/Users/willi/Desktop/Lab13/MaquinaMealy.v
+C:/Users/willi/Desktop/Lab13/Principal.v
+C:/Users/willi/Desktop/Lab13/Waveform.vwf
+C:/Users/willi/Desktop/Lab13/Waveform1.vwf
+C:/Users/willi/Desktop/Lab13/Waveform10.vwf
+C:/Users/willi/Desktop/Lab13/Waveform11.vwf
+C:/Users/willi/Desktop/Lab13/Waveform12.vwf
+C:/Users/willi/Desktop/Lab13/Waveform13.vwf
+C:/Users/willi/Desktop/Lab13/Waveform14.vwf
+C:/Users/willi/Desktop/Lab13/Waveform15.vwf
+C:/Users/willi/Desktop/Lab13/Waveform16.vwf
+C:/Users/willi/Desktop/Lab13/Waveform17.vwf
+C:/Users/willi/Desktop/Lab13/Waveform18.vwf
+C:/Users/willi/Desktop/Lab13/Waveform19.vwf
+C:/Users/willi/Desktop/Lab13/Waveform2.vwf
+C:/Users/willi/Desktop/Lab13/Waveform20.vwf
+C:/Users/willi/Desktop/Lab13/Waveform3.vwf
+C:/Users/willi/Desktop/Lab13/Waveform4.vwf
+C:/Users/willi/Desktop/Lab13/Waveform5.vwf
+C:/Users/willi/Desktop/Lab13/Waveform6.vwf
+C:/Users/willi/Desktop/Lab13/Waveform7.vwf
+C:/Users/willi/Desktop/Lab13/Waveform8.vwf
+C:/Users/willi/Desktop/Lab13/Waveform9.vwf
+	======= Total: 30 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

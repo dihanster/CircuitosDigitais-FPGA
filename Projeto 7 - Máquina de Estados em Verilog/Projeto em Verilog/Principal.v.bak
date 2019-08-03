@@ -1,0 +1,9 @@
+module Principal(input clock, input clear, input UP, input DOWN, output wire [0:6] dispseg);
+	wire clock2seg;
+	wire [0:3] saida;
+		
+	MaquinaLogica maq(.clock(clock2seg), .reset(clear), .u(UP), .d(DOWN), .z(saida));
+	Display disp(.in(saida), .out(dispseg));
+	Temporizador temp(.clkin(clock), .clkout(clock2seg));
+		
+endmodule
